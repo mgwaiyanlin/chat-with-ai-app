@@ -1,0 +1,25 @@
+
+.start-page {
+    display: grid;
+    place-items: center;
+}
+
+.start-page-btn {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-white);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    border: none;
+    background: var(--linear-btn-color);
+    cursor: pointer;
+    margin: 1.25rem;
+    transition: transform .1s ease;
+}
+
+.start-page-btn:active {
+    transform: scale(.98);
+}
